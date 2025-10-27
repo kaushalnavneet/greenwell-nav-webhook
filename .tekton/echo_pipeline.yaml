@@ -19,7 +19,7 @@ spec:
         done
 
         sleep 15
-        ecoh "BUILD_NUMBER 1"
+        echo "BUILD_NUMBER 1"
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
